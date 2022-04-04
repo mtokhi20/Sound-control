@@ -1,0 +1,68 @@
+body{
+    text-transform: capitalize;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+.song-play{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #ddd;
+    box-shadow: 1px 6px 8px 1px #ccc;
+    margin: 30px 0;
+}
+.song-play .image img{
+    width: 250px;
+}
+.song-play input[type="range"]{
+    cursor: pointer;
+}
+.song-control{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.song-control .btns{
+    margin: 15px 0;
+}
+.song-control .btns button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.song-control .btns button:hover{
+    background-color: #0075ff;
+    color: #fff;
+}
+
+ul.play-audio{
+    list-style: none;
+}
+ul.play-audio li button{
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 19px;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #00000054;
+    outline: 0;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+
+}
+ul.play-audio li button:hover{
+    background-color: #000;
+    color: #fff;
+}
